@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>BG Color </title>
+  <style>
+    body { width: 280px; padding: 10px; font-family: sans-serif; }
+    h3 { margin: 0 0 10px; font-size: 16px; }
+    .cm-actions { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+    button { flex: 1; padding: 6px; }
+    .cm-row { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
+    .cm-swatch { width: 30px; height: 30px; border: 1px solid #ccc; cursor: pointer; }
+    .cm-color { width: 100px; height: 30px; }
+  </style>
+</head>
+<body>
+  <h3>BG Color </h3>
+  <div id="rows"></div>
+  <div class="cm-actions">
+    <button id="add">+</button>
+    <button id="remove">-</button>
+    <button id="save">Kaydet</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
